@@ -16,7 +16,7 @@
     "start": "tsdx watch",
     "interop": "yarn node writeInterop.js",
     "prepublishOnly": "tsdx build",
-    "postinstall": "tsc --build"
+    "postinstall": "tsdx build"
   },
   "repository": {
     "type": "git",
